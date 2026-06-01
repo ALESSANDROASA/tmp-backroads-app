@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+.section {
+  /* navbar height */
+  scroll-margin-top: 4rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +44,7 @@
     transform: rotate(360deg);
   }
 }
+
+/* h1 {
+    color: red;
+} */
